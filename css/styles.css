@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"Roboto", system-ui
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    padding-top: 60px;
+body {    
+    padding-top: 60px;  
+    background-image: url("../media/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+   
 }
 
 .navbar {
     width: 100%;
-    background: #2c3e50;
+    background: #1A1A1A;
     color: #ecf0f1;
     padding: 1rem;
     position: fixed;
@@ -43,8 +46,10 @@ body {
     text-decoration: none !important;
     color: #ecf0f1;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight:400 ;
+    font-style: normal;
     transition: color 0.3s ease;
+
 }
 
 .menu-items a:hover, .menu-items a:focus {
@@ -54,7 +59,8 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #3498db;
+    font-family:"Roboto", system-ui;
+    color: #ffffff;
     padding: 0 20px;      
     text-decoration: none;
 }
@@ -78,7 +84,7 @@ body {
 
 /* Contenido principal */
 main {
-    padding: 2rem;
+    padding: 2rem;      
 }
 
 section {
@@ -101,7 +107,7 @@ h2 {
         top: 100%;
         left: 0;
         width: 100%;
-        background: #2c3e50;
+        background: #1A1A1A;
         padding: 1rem;
     }
 
