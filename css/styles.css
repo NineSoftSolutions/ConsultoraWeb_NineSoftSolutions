@@ -165,7 +165,7 @@ p {
 
 /* FALTA CAMBIAR LAS IMAGENES PARA CADA INTEGRANTE */
 .card-1::before {
-  background-image: url("../media/img/beto.png");
+  background-image: url("../media/img/kath.png");
 }
 
 .card-2::before {
@@ -173,7 +173,7 @@ p {
 }
 
 .card-3::before {
-  background-image: url("../media/img/beto.png");
+  background-image: url("../media/img/walter.png");
 }
 
 .card-4::before {
@@ -221,6 +221,28 @@ main {
   color: #2c3e50;
   margin-bottom: 1rem;
 } */
+
+.index-button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    z-index: 2; 
+    position: relative;
+    background-color: #ffffff; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    color: #295bce;
+  }
+  
+  .index-button:hover{
+    background-color: #295bce;
+    color: #ffffff;
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
 
 .main-content {
   display: inline-flex;
