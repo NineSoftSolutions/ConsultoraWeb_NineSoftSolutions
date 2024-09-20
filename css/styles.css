@@ -9,10 +9,12 @@ body {
     padding-top: 60px;  
     background-image: url("../media/img/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;  
-   
+    background-size: cover;    
 }
 
+body a{
+    text-decoration: none;
+}
 .navbar {
     width: 100%;
     background: #1A1A1A;
@@ -84,7 +86,9 @@ body {
 
 /* Contenido principal */
 main {
-    padding: 2rem;      
+    padding: 2rem;   
+    margin-top: 140px;  
+    text-align: center;
 }
 
 section {
@@ -95,6 +99,132 @@ h2 {
     color: #2c3e50;
     margin-bottom: 1rem;
 }
+
+.main-content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+}
+  
+.main-content .div {
+align-items: center;
+gap: 24px;
+display: inline-flex;
+flex-direction: column;
+position: relative;
+flex: 0 0 auto;
+}
+
+.main-content .div-2 {
+align-items: center;
+gap: 16px;
+display: inline-flex;
+flex-direction: column;
+position: relative;
+flex: 0 0 auto;
+}
+
+.main-content .div-wrapper {
+align-items: flex-start;
+gap: 8px;
+display: inline-flex;
+flex-direction: column;
+position: relative;
+flex: 0 0 auto;
+}
+
+.main-content .text-wrapper {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: "Roboto-Bold", Helvetica;
+font-weight: 700;
+color: #00070f;
+font-size: 60px;
+text-align: center;
+letter-spacing: 0.5px;
+line-height: 76px;
+white-space: nowrap;
+}
+
+.main-content-title {
+position: relative;
+align-self: stretch;
+font-family: "Roboto-Regular", Helvetica;
+font-weight: 400;
+color: transparent;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.5px;
+line-height: 32px;
+}
+
+.main-content .span {
+color: #00070f;
+letter-spacing: 0.1px;
+}
+
+.main-content .text-wrapper-2 {
+font-family: "Roboto-Bold", Helvetica;
+font-weight: 700;
+color: #295bce;
+letter-spacing: 0.1px;
+}
+
+.main-content-buttons{
+display: flex;
+height: 48px;
+align-items: flex-start;
+justify-content: center;
+gap: 24px;
+position: relative;
+align-self: stretch;
+width: 100%;
+}
+
+.main-content-button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 12px 20px;
+position: relative;
+flex: 0 0 auto;
+background-color: #fafdf2;
+border-radius: 50px;
+overflow: hidden;
+}
+
+.main-content-button:hover{
+    color: #ffffff;
+    background-color: #3498db;
+
+}
+
+.main-content .div-wrapper-2 {
+align-items: center;
+gap: 20px;
+display: inline-flex;
+flex-direction: column;
+position: relative;
+flex: 0 0 auto;
+}
+
+.main-content .text-wrapper-3 {
+position: relative;
+width: 645px;
+margin-top: -1px;
+font-family: "Roboto-Medium", Helvetica;
+font-weight: 500;
+color: #00070f;
+font-size: 21px;
+text-align: center;
+letter-spacing: 0.15px;
+line-height: 22px;
+}
+
 
 @media (max-width: 768px) {
     .navbar-container{
