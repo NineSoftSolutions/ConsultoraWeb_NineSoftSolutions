@@ -205,14 +205,14 @@ main {
     text-align: center;
 }
 
-section {
+.main-section {
   margin-bottom: 2rem;
 }
 
-h2 {
+/* h2 {
   color: #2c3e50;
   margin-bottom: 1rem;
-}
+} */
 
 @media (max-width: 1400px) {
   .nosotros-cards-container {
@@ -236,6 +236,7 @@ h2 {
     align-items: center;
     gap: 64px;
     position: relative;
+    max-width: 10vh;
 }
   
 .main-content .div {
@@ -267,7 +268,7 @@ flex: 0 0 auto;
 
 .main-content .text-wrapper {
 position: relative;
-width: fit-content;
+width: 100%;
 margin-top: -1px;
 font-family: "Roboto-Bold", Helvetica;
 font-weight: 700;
@@ -408,3 +409,64 @@ line-height: 22px;
 }
 
 
+@media (max-width: 432px) {
+    body {
+        padding-top: 0;
+        background-size: cover; 
+    }
+    
+    .navbar {
+        padding: 0.5rem; 
+    }
+    
+    .logo {
+        font-size: 1.2rem; 
+    }
+    
+    
+    .menu-items {
+        padding: 0.5rem;
+    }
+
+    .menu-items li {
+        margin: 0.5rem 0; 
+    }
+
+    .menu-items a {
+        font-size: 0.9rem; 
+    }
+
+    
+    .main-content .text-wrapper {
+        font-size: 36px; 
+        line-height: 1.2;
+        white-space: normal; 
+    }
+
+    .main-content-title {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .main-content-buttons {
+        flex-direction: column;
+        gap: 10px; 
+    }
+
+    .main-content-button {
+        width: 100%;
+        padding: 10px; 
+    }
+
+    
+    .main-content .text-wrapper-3 {
+        font-size: 16px; 
+        width: 100%; 
+    }
+
+    
+    footer p {
+        font-size: 0.8rem; 
+    }       
+    
+}
