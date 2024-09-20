@@ -16,9 +16,7 @@ body {
   background-size: cover;
 }
 
-body a {
-  text-decoration: none;
-}
+
 .navbar {
   width: 100%;
   background: #1a1a1a;
@@ -207,6 +205,79 @@ p {
 
 /* Footer */
 
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  color: #ecf0f1;
+  padding: 20px;
+}
+
+.footer-grid{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-box h3{
+  margin-bottom: 8px;
+}
+
+.footer-box li {
+  list-style: none;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+
+.footer-box a {
+  text-decoration: none; 
+  color: inherit; 
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 3px;
+  gap: 8px; 
+}
+
+.footer-box a:hover {
+  color: #2d64e3;
+}
+
+.footer-box img{
+  width: 20px;
+  height: 20px;
+}
+
+.social-media-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+.footer-box button{
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  z-index: 2;
+  position: relative;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  color: #295bce;
+}
+
+.footer-box button:hover{
+  background-color: #295bce;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Contenido principal */
 main {
   padding: 2rem;
@@ -369,8 +440,6 @@ main {
   line-height: 22px;
 }
 
-/* MEDIA QUERIS */
-
 .logos-index{
     display: flex;
     justify-content: space-between;
@@ -381,6 +450,7 @@ main {
     height: auto;
     width: auto
 }
+/* MEDIA QUERIS */
 
 @media (max-width: 1400px) {
   .nosotros-cards-container {
@@ -398,6 +468,23 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  .footer-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-box{
+    margin-bottom: 20px;
+  }
+
+  .footer-box h1, p{
+    text-align: start;
+  }
+
+  .footer-box button{
+    margin-top: 20px;
   }
 }
 
