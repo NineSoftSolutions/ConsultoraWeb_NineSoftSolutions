@@ -371,6 +371,17 @@ main {
 
 /* MEDIA QUERIS */
 
+.logos-index{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;    
+}
+
+.logos-index img{
+    height: auto;
+    width: auto
+}
+
 @media (max-width: 1400px) {
   .nosotros-cards-container {
     display: grid;
