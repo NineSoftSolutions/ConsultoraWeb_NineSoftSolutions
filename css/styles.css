@@ -81,6 +81,7 @@ body {
 
 .hamburger-menu {
   display: none;
+  margin-right:20px;
 }
 
 .menu-toggle {
@@ -305,6 +306,7 @@ main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   color: #295bce;
+  font-size: 16px;
 }
 
 .index-button:hover {
@@ -615,7 +617,7 @@ main {
   }
 
   .index-main-content .text-wrapper {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1.2;
     white-space: normal;
   }
@@ -645,6 +647,10 @@ main {
 
   .index-main-content .div-wrapper-2 {
     display: block;
+  }
+
+  .index-main-content .div-2 {
+    margin-bottom: 24px
   }
 
   .index-herramientas {
