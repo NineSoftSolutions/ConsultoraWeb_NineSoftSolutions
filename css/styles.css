@@ -483,26 +483,36 @@ main {
     gap: 10px;
   }
 
-  .footer-grid {
+  .index-main-content .text-wrapper {
+    white-space: unset;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 950px){
+  .footer-grid{
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 872px){
+    .footer-grid {
     display: flex;
     flex-direction: column;
+    font-size: medium;
   }
 
   .footer-box {
     margin-bottom: 20px;
   }
 
-  .footer-box h1,
+  .footer-box h3,
   p {
     text-align: start;
   }
 
   .footer-box button {
     margin-top: 20px;
-  }
-  .index-main-content .text-wrapper {
-    white-space: unset;
-    font-size: 50px;
   }
 }
 
