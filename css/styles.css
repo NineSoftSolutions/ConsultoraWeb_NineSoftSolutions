@@ -1376,3 +1376,66 @@ textarea {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .form-container {
+    width: 90%; 
+    margin: 40px auto; 
+  }
+
+  form {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px; 
+    font-size: 16px;
+  }
+
+  input, textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px; 
+    font-size: 14px;
+    box-sizing: border-box; 
+  }
+
+  textarea {
+    height: 150px; 
+  }
+
+  .submit-container {
+    text-align: center; 
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .oficina-content {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .oficina-info {
+    text-align: center; 
+    max-width: 90%; 
+  }
+
+  .oficina-content img {
+    margin-right: 0; 
+    margin-bottom: 15px; 
+  }
+  
+  #oficina h3 {
+    font-size: 24px; 
+    text-align: center;
+    margin: 15px 0; 
+    color: #ffffff;
+    white-space: nowrap; 
+  }
+}
