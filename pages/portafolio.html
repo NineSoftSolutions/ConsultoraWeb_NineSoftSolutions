@@ -1,41 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="shortcut icon" href="../media/img/favicon.ico" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="navbar-container">
-                <a href="../index.html" class="logo">NineSoft Solutions</a>
-                <input type="checkbox" id="menu-toggle" class="menu-toggle">
-                <label for="menu-toggle" class="hamburger-menu" aria-label="Abrir menú">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <ul class="menu-items">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="portafolio.html">Portafolio</a></li>
-                    <li><a href="soporte.html">Soporte</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a href="../index.html" class="logo">NineSoft Solutions</a>
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label
+            for="menu-toggle"
+            class="hamburger-menu"
+            aria-label="Abrir menú"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul class="menu-items">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
-        <section>
-        </section>
+    <main class="main-portfolio">
+      <h1>Portafolio</h1>
+      <div class="intro-text">
+        <p>
+          En NineSoft Solutions, nuestro portafolio refleja el compromiso y la
+          innovación que ponemos en cada proyecto. Aquí encontrarás una
+          selección de las soluciones de software que hemos desarrollado para
+          optimizar los procesos y potenciar los negocios de nuestros clientes.
+        </p>
+      </div>
+
+      <section class="projects">
+        <div class="project">
+          <img src="../media/img/Ninesoft 1.png" alt="Proyecto 1" />
+          <p>
+            NineSoft Solutions es una empresa de desarrollo de software
+            especializada en crear soluciones digitales a medida para optimizar
+            procesos y potenciar negocios
+          </p>
+          <ul>
+            <a href=""><li>Pagina Web</li></a>
+            <a href=""><li>Prototipo</li></a>
+          </ul>
+        </div>
+        <div class="project under-construction">
+          <img
+            src="../media/img/wrench.png"
+            alt="herramienta de construcción"
+          />
+          <p>En construcción</p>
+        </div>
+      </section>
+
+      <section class="technologies">
+        <h2>Tecnologías</h2>
+        <div class="tech-icons">
+          <img src="../media/img/css-3.svg" alt="Bootstrap" />
+          <img src="../media/img/html-5.svg" alt="React" />
+          <img src="../media/img/javascript.svg" alt="Node.js" />
+          <img src="../media/img/python.svg" alt="Python" />
+        </div>
+      </section>
     </main>
+
     <footer>
-        <p>&copy; 2024. Todos los derechos reservados.</p>
+      <p>&copy; 2024. Todos los derechos reservados.</p>
     </footer>
-</body>
+  </body>
 </html>
