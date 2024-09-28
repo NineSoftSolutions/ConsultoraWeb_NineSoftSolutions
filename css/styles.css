@@ -787,3 +787,137 @@ main {
     font-size: 0.8rem;
   }
 }
+
+.nosotros-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.nosotros-container p {
+  background-color: #5B646D;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.form-container {
+  margin-top: 40px; 
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+  background-color: #5B646D;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.form-container h3 {
+  grid-column: 1 / 3;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+  font-size: 24px; 
+}
+
+.form-container label {
+  align-self: center;
+  justify-self: end;
+  color: #fff;
+  margin-bottom: 5px; 
+  margin-top: 5px;   
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 100px;
+}
+
+.submit-container {
+  grid-column: 1 / 3;
+  text-align: center;
+}
+
+.submit-container button {
+  padding: 10px 30px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-container button:hover {
+  background-color: #005f75;
+}
+
+.form-container input,
+.form-container textarea {
+  margin-bottom: 20px;
+}
+
+textarea {
+  grid-column: 2;
+  height: 150px; 
+}
+
+#oficina h3 {
+  font-size: 28px;
+  text-align: center;
+  margin: 25px 0;
+  color: #000000;
+}
+
+.oficina-content {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+.oficina-info {
+  background-color: transparent !important;
+  border: none; 
+  color: #ffffff; 
+  padding: 12px;
+  margin: 0; 
+  width: auto; 
+  max-width: 400px; 
+  margin-top: -10px; 
+
+  font-weight: bold;
+  font-size: 1.1rem; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); 
+}
+
+.oficina-content img {
+  max-width: 400px; 
+  height: auto;
+  border-radius: 5px; 
+  margin-right: 10px; 
+}
+
+#oficina { 
+  width: 50%; 
+  margin: 15px auto;
+}
