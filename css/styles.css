@@ -495,6 +495,10 @@ main {
   color: #e6e6e6; 
 }
 
+.main-portfolio h1{
+  color: #ffffff;
+}
+
 .intro-text {
     background-color: #5B646D;
     padding: 20px;
@@ -731,13 +735,22 @@ main {
     max-width: 500px; 
   }
 
+  .technologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .tech-icons {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
 
   .tech-icons img{
     width: 10vw;
+    
   }
  
 .footer{
@@ -749,7 +762,7 @@ main {
 
 .footer-left ul{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -852,7 +865,7 @@ main {
     width: 40px;
     height: 40px;
   }
-  footer p {
+  footer p, footer li{
     font-size: 0.8rem;
   }
 }
