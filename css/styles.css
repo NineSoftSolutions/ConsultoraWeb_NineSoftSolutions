@@ -1284,3 +1284,54 @@ textarea {
   width: 50%; 
   margin: 15px auto;
 }
+
+
+/* Servicios */
+.servicios {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.estiloservicios {
+  background-color:#5B646D;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.estiloservicios ul li{
+list-style: none;
+text-align: left;
+margin: 10px 0px 10px 0px;
+}
+
+.estiloservicios a{
+text-decoration: none;
+color: #e6e6e6;
+}
+
+.estiloservicios a:hover {
+color: #658ce6;
+}
+
+.estiloservicios p{
+margin-top: 10px;
+text-align: left;
+}
+
+.estiloservicios img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.servicios{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
