@@ -1182,7 +1182,7 @@ main {
 .nosotros-container p {
   background-color: #5B646D;
   color: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   max-width: 1000px;
   margin: 0 auto;
@@ -1192,8 +1192,9 @@ main {
 }
 
 .form-container {
-  margin-top: 40px; 
-  width: 50%;
+  margin-top: 40px;
+  width: 75%; /* Ajuste el ancho del formulario para que sea más amplio */
+  max-width: 1000px; /* Limita el ancho máximo al mismo que la sección de contacto */
   margin-left: auto;
   margin-right: auto;
 }
@@ -1220,19 +1221,23 @@ main {
   justify-self: end;
   color: #fff;
   margin-bottom: 5px; 
-  margin-top: 5px;   
+  margin-top: 5px;
+  font-size: 20px; /* Aumenta el tamaño */
+  font-weight: bold; /* Opcional, para hacerlo más visible */
 }
 
 .form-container input,
 .form-container textarea {
-  width: 100%;
-  padding: 10px;
+  width: 100%; /* Ancho completo para los campos de entrada */
+  padding: 15px; /* Ajusta el espacio interno */
   border-radius: 5px;
-  border: none;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Asegura que el padding no aumente el tamaño */
+  margin-bottom: 15px; /* Espaciado entre los campos */
 }
 
 textarea {
-  height: 100px;
+  height: 150px; /* Ajuste de altura para que el cuadro de consulta sea más grande */
 }
 
 .submit-container {
@@ -1378,36 +1383,36 @@ textarea {
 }
 
 @media (max-width: 768px) {
-  .form-container {
-    width: 90%; 
-    margin: 40px auto; 
-  }
-
-  form {
-    display: flex;
-    flex-direction: column; 
+  .form-container form {
+      display: flex;
+      flex-direction: column; /* Organización vertical */
+      gap: 15px; /* Espaciado entre elementos */
   }
 
   label {
-    display: block;
-    margin-bottom: 10px; 
-    font-size: 16px;
+      font-size: 14px;
+      font-weight: bold;
   }
 
   input, textarea {
-    width: 100%; 
-    padding: 10px;
-    margin-bottom: 20px; 
-    font-size: 14px;
-    box-sizing: border-box; 
-  }
+    width: 80%; /* Ancho del recuadro */
+    max-width: 500px; /* Limita el ancho máximo */
+    padding: 15px; /* Espaciado interno entre texto y borde */
+    font-size: 14px; /* Tamaño del texto */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+    margin: 0 auto; /* Centrado horizontal */
+    line-height: 1.8; /* Espaciado vertical del texto */
+}
 
   textarea {
-    height: 150px; 
+      height: 100px; /* Hace que el cuadro de consulta sea más alto */
+      resize: none; /* Evita que se pueda redimensionar el cuadro */
   }
-
+  
   .submit-container {
-    text-align: center; 
+    text-align: center;
     margin-top: 20px;
   }
 
@@ -1416,26 +1421,27 @@ textarea {
     font-size: 16px;
   }
 
+  /* Oficina */
   .oficina-content {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
   }
 
   .oficina-info {
-    text-align: center; 
-    max-width: 90%; 
+    text-align: center;
+    max-width: 100%;
   }
 
   .oficina-content img {
-    margin-right: 0; 
-    margin-bottom: 15px; 
+    margin-right: 0;
+    margin-bottom: 15px;
   }
-  
+
   #oficina h3 {
-    font-size: 24px; 
+    font-size: 24px;
     text-align: center;
-    margin: 15px 0; 
+    margin: 15px 0;
     color: #ffffff;
-    white-space: nowrap; 
+    white-space: nowrap;
   }
 }
