@@ -689,6 +689,35 @@ main {
     height: 50px;
 }
 
+.project {
+  background-color: #5B646D;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project .button-link {
+  display: inline-block; /* Botón en línea bloque */
+  background-color: #ffffff; /* Fondo blanco */
+  color: #1a54db; /* Texto azul */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 15px;
+  border: 2px solid #658ce6; /* Borde azul para mejor contraste */
+  transition: all 0.3s ease; /* Suaviza la transición al hover */
+}
+
+.project .button-link:hover {
+  background-color: #1a54db; /* Fondo azul */
+  color: #ffffff; /* Texto blanco */
+}
+
 
 
 
@@ -1170,6 +1199,37 @@ main {
       height: 200px;
     }
 }
+
+@media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 90%;
+  }
+
+  .project .button-link {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project .button-link {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .tech-icons img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+/* CONTACTO */
 
 .nosotros-container h1 {
   text-align: center;
