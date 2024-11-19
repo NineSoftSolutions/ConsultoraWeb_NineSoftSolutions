@@ -330,11 +330,21 @@ main {
   line-height: 1.2;
 }
 
+.text-content{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .content-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  gap: 65px;
 }
+
 
 /* contenido de página index */
 .index-button {
@@ -990,6 +1000,31 @@ main {
   .tech-icons img{
     width: 10vw;
     
+  }
+
+  .index-main-section {
+    padding: 1rem;
+  }
+
+  .index-main-content {
+    padding: 0;
+    width: 100%;
+  }
+
+  .main-title {
+    font-size: 2rem;  
+  }
+
+  .content-wrapper {
+    flex-direction: column;  
+    gap: 30px; 
+    align-items: center; 
+  }
+
+  .image-wrapper img {
+    width: 100%;  
+    max-width: 400px; 
+    height: auto;
   }
  
 }
