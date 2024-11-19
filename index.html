@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="shortcut icon" href="media/img/favicon.ico" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header>
@@ -41,31 +42,37 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section class="index-main-section">
-        <div class="index-main-content">
-          <div class="title-wrapper">
-            <h1 class="main-title">¡Bienvenido a NineSoft Solutions!</h1>
+    <main class="px-4 flex justify-center items-center text-white min-h-[80vh]">
+      <section class="max-w-5xl mx-auto">
+        <div class="flex flex-col gap-8">
+          <div class="text-center">
+            <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">
+              ¡Bienvenido a NineSoft Solutions!
+            </h1>
           </div>
-          <div class="content-wrapper">
-            <div class="text-content">
-              <p class="main-text">
-                <span>En </span>
-                <span class="highlight">NineSoft Solutions</span>
-                <span>
-                  , llevamos tus proyectos digitales al siguiente nivel. Nos
-                  especializamos en desarrollar soluciones web a medida que
-                  optimizan tus procesos y potencian tu negocio. Con un equipo
-                  de expertos, garantizamos innovación, calidad y resultados
-                  impactantes.
-                </span>
+  
+          <div class="flex flex-col gap-8 md:flex-row md:items-center">
+            <div class="flex-1">
+              <p class="text-lg leading-relaxed mb-6 md:text-xl">
+                En <span class="text-[#4A90E2]">NineSoft Solutions</span>, llevamos
+                tus proyectos digitales al siguiente nivel. Nos especializamos en
+                desarrollar soluciones web a medida que optimizan tus procesos y
+                potencian tu negocio. Con un equipo de expertos, garantizamos
+                innovación, calidad y resultados impactantes.
               </p>
-              <a href="pages/servicios.html" class="button-wrapper">
-                <button class="index-button">Nuestros Servicios</button>
+              <a href="pages/servicios.html" class="block w-full md:inline-block">
+                <button class="bg-white text-[#295bce] w-full py-2 px-6 rounded-full font-medium text-base transition duration-300 hover:bg-[#295bce] hover:text-white hover:-translate-y-1 hover:shadow-md">
+                  Nuestros Servicios
+                </button>
               </a>
             </div>
-            <div class="image-wrapper">
-              <img class="main-image" src="media/img/hombreComputadora.png" alt="Hombre en la computadora">
+  
+            <div class="flex-1">
+              <img 
+                src="media/img/hombreComputadora.png"
+                alt="Persona trabajando en computadora" 
+                class="w-full rounded-lg object-cover"
+              />
             </div>
           </div>
         </div>
